@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 2597814181
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: test_assetbundle_android
+      Dependencies: {}

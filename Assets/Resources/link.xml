@@ -1,0 +1,32 @@
+ <linker>
+ 
+ <assembly fullname="UnityEngine">
+     <type fullname="UnityEngine.Experimental.Networking.UnityWebRequest" preserve="all" />
+     <type fullname="UnityEngine.Experimental.Networking.UploadHandlerRaw" preserve="all" />
+     <type fullname="UnityEngine.Experimental.Networking.UploadHandler" preserve="all" />
+     <type fullname="UnityEngine.Experimental.Networking.DownloadHandler" preserve="all" />
+     <type fullname="UnityEngine.Experimental.Networking.DownloadHandlerBuffer" preserve="all" />
+ </assembly>
+ 
+ <assembly fullname="mscorlib">
+     <namespace fullname="System.Security.Cryptography" preserve="all"/>
+ </assembly>
+ 
+ <assembly fullname="System">
+     <namespace fullname="System.Security.Cryptography" preserve="all"/>
+ </assembly>
+ 
+ 
+ <assembly fullname="AWSSDK.Core">
+     <type fullname="Amazon.Util.Internal.PlatformServices.NetworkReachability" preserve="all"/>
+    <namespace fullname="Amazon.Util.Internal.PlatformServices" preserve="all"/>
+ </assembly>
+ <assembly fullname="AWSSDK.CognitoIdentity">
+    <namespace fullname="Amazon.Util.Internal.PlatformServices" preserve="all"/>
+ </assembly>
+ <assembly fullname="AWSSDK.SecurityToken">
+    <namespace fullname="Amazon.Util.Internal.PlatformServices" preserve="all"/>
+ </assembly>
+ <assembly fullname="AWSSDK.DynamoDBv2" preserve="all"/>
+ 
+ </linker>
